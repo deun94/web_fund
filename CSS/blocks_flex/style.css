@@ -1,0 +1,44 @@
+.container{
+    width: 950px;
+    background-color:silver;
+     margin: 0px auto; /*shortchut for setting the toip and bottom margins to zero */
+    padding: 20px;
+}
+
+#header{
+    height:150px;
+    background-color:green;
+}
+
+.link{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.main{
+    height: 400px;
+    width: 700px;
+    background-color:red;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.triple{
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin:10px;
+}
+
+#ad{
+    height: 120px;
+    width:660px;
+    background-color: purple;d
+    margin: 10px;
+}
+
+.row{
+    display: flex;
+}

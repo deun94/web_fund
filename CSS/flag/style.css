@@ -1,0 +1,12 @@
+#flag{
+    border: black;
+    background-color: yellow;
+    height: 400px;
+    width: 600px;
+    padding: 25px 50px;
+    display: inline-block;
+}
+
+#box{
+    background-color:yellow;
+}

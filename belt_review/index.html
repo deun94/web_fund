@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div class="navcontainer">
+            <h1 class="navtitle">
+                Gaming<span>Dojo</span>    
+            </h1>
+            <div class="rightnav">
+                <select>
+                    <option>Euro e</option>
+                    <option>Dollar $</option>
+                </select>
+                <span>
+                    <img src="cart" alt ="shopping cart" class="carticon"><u id="cartcount">0</u>
+                    <!-- increasing cart count -->
+                </span>
+                <!-- to group the img and 0 together -->
+                <img src="search" alt="searching">
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <h3>Highlights</h3>
+        <div id="banner">
+            <!-- onclick="changebanner()" -->
+            <button class="btn" id="left"></button>
+            <img src="envelope" alt="big one">
+            <!-- maybe give an id to img -->
+            <button class="btn" id="right"></button>
+        </div>
+        <div id="boxes">
+            <div class="rectangles"></div>
+            <div class="rectangles" id="purpleRectangle"></div>
+            <div class="rectangles"></div>
+            <div class="rectangles"></div>
+        </div>
+        <div id="gameBox">
+            <div class="gbox">
+                <div class="top">
+                    <img>
+                    <h4 class="gametitle"></h4>
+                    <div class="icons">
+<!-- remember you can give two classes -->
+                    </div>
+                    <!-- do onclick = "functionname()" -->
+                </div>
+                <div class="bottom">
+
+                </div>
+            </div>
+            <div class="gbox"></div>
+            <div clsss="gbox"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

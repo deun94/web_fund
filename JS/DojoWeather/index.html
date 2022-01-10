@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <div class="navbar">
+            <h1 class="navtitle">DojoWeather</h1>
+            <div class="city" >
+                <h2 class="cities"  onclick="loadingWeather()">Burbank</h2>
+                <h2 class="cities" onclick="loadingWeather()">Chicago</h2>
+                <h2 class="cities" onclick="loadingWeather()">Dallas</h2>
+            </div>
+        </div>    
+    </div>
+
+    <div id="container">
+        <div id="weather">
+            <h2>San Jose</h2>
+            <div class="temperature">
+                <p>show temperature in</p>
+                <select onchange="convertTemp(this)">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="w-cards">
+            <div class="daily">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="Partially Rainyr">
+                <p>some rain</p>
+                <div class="highlow">
+                    <p class="high" id="temp1">24°</p>
+                    <p class="low" id="temp2">18°</p>
+                </div>
+            </div>
+            <div class="daily">
+                <h2>Tomorow</h2>
+                <img src="assets/some_sun.png" alt="Partially Sunny">
+                <p>some sun</p>
+                <div class="highlow">
+                    <p class="high" id="temp3">27°</p>
+                    <p class="low" id="temp4">19°</p>
+                </div>
+            </div>
+            <div class="daily">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="Partially Cloudr">
+                <p>some clouds</p>
+                <div class="highlow">
+                    <p class="high" id="temp5">21°</p>
+                    <p class="low" id="temp6">16°</p>
+                </div>
+            </div>
+            <div class="daily">
+                <h2>Today</h2>
+                <img src="assets/some_sun.png" alt="Partially Sunny">
+                <p>some sun</p>
+                <div class="highlow">
+                    <p class="high" id="temp7">26°</p>
+                    <p class="low" id="temp8">21°</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="cookie">
+            <img src="assets/cookie.png" alt="Cookie picture">
+            <div class="stop">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse out traffic. <a href = "#">Read more..</a></p>
+            </div> 
+            <button onclick="removeCookie()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

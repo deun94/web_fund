@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: rgb(53, 50, 50);
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    list-style-type: none;
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: aqua;
+    box-shadow: 3px 3px;
+    border: solid black 3px;
+    width: 100%;
+    height: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;  /*gets rid and underlines
+ } /* selects anchor(links)in navigation */

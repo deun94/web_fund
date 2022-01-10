@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins",sans-serif;
+}
+
+#container{
+    width: 80%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.navbar{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+    align-items: center;
+}
+.navbar>h1{
+    margin-left: 30px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    border: 5px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+img{
+    height: 100px;
+}
+
+.column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 110%;
+}
+
+.user>h4{
+    font-size: 2em;
+}
+.card{
+    border: 5px solid black;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+
+}
+
+.post{
+    font-size: 1.5em;
+    width: 90%;
+    font-weight: bold;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+button{
+    width: 30%;
+    height: 45px;
+    border: 5px solid black;
+    box-shadow: 3px 3px;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.up{
+    background-color: yellow;
+}
+
+.down{
+    background-color: green;
+}

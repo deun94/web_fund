@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    background-color:darksalmon;
+    min-height: 100vh; /*relative to the size of screen not the body*/
+    width: 70%;
+    /*display: flex;  might fuck up things later*/
+    margin: 0px auto;
+    padding: 20px;
+    border-left: 5px solid purple;
+    border-right:5px solid purple;
+}
+
+h1{
+    text-align: center;    
+}
+
+
+#albumlist{
+    width: 90%;
+    margin: 0px auto;  /*center a little bit */
+    border: 2px dotted salmon;
+    min-height: 90%; 
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+
+.albumbox{
+    background-color: black;
+    height: 300px;
+    width: 200px;
+    margin: 0px 10px;
+}

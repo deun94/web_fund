@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+        <div class="bar">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="content">
+            <div class="column-1">
+                <img src="user-circle.png" alt="Profile Picture"></img>
+                <a href ="#">Add an avatar</a>
+                <h3>James Doe</h3>
+            </div>
+            <div class="column-2">
+                <div class="card">
+                    <div class="user">
+                        <h4>Neil M</h4>
+                        <div class="like">
+                            <p class="likes" id="counter1">0 like(s)</p>
+                            <button class="up" onclick="countUp(1)" id="like1">Like</button>
+                            <button class="down" onclick="countDown(1)" id="dislike1">Dislike</button>
+                        </div>
+                    </div>
+                    <p class="post">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+                <div class="card">
+                    <div class="user">
+                        <h4>Nicole K</h4>
+                        <div class="like">
+                            <p class="likes" id="counter2">0 like(s)</p>
+                            <button class="up" onclick="countUp(2)" id="like2">Like</button>
+                            <button class="down" onclick="countDown(2)" id="dislike2">Dislike</button>
+                        </div>
+                    </div>
+                    <p class="post">Just finished my <a href="#">next comic</a>, check it out</p>
+                </div>
+                <div class="card">
+                    <div class="user">
+                        <h4>Jim R</h4>
+                        <div class="like">
+                            <p class="likes" id="counter3">0 like(s)</p>
+                            <button class="up" onclick="countUp(3)" id="like3">Like</button>
+                            <button class="down" onclick="countDown(3)" id="dislike3">Dislike</button>
+                        </div>
+                    </div>
+                    <p class="post">I can't stop listening to the <a href="#">new ablum</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
